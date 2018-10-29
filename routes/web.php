@@ -13,5 +13,6 @@
 
 Route::get('/', 'PagesController@home');
 Route::get('/about', 'PagesController@about');
-Route::get('/persona', 'PersonaController@about');
-Route::get('/email', 'EmailController@about');
+Route::get('/persona', 'PersonaController@home');
+Route::get('/email', 'EmailController@home');
+Route::get('/email', 'AdsController@home');
